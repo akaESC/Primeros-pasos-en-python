@@ -12,4 +12,4 @@ clientes.pop(0)
 clientes.insert(1, "Leo")
 
 # PASO 3: Imprimimos la lista para ver si lo has hecho bien.
-print("La nueva cola de la barbería es:", clientes)
+print("La nueva cola de la barbería es:", clientes) 
