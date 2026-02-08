@@ -3,5 +3,5 @@ if nombre == "Fran":
     print(" Hola jefe")
 else: 
     print(" Tú no eres el jefe, eres Gemini!") 
-    
+
     
