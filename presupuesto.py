@@ -15,4 +15,4 @@ else:
 	print("Presupuesto aceptado")
 
 # 4. Imprime el total final
-print("El coste total es:", total)
+print("El coste total es:", total) 
