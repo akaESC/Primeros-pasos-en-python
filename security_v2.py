@@ -3,7 +3,9 @@ black_list = ["david johnson", "spam", "scam", "fake", "axis prime consulting"]
 # 2. El bucle (El programa no se apaga)
 while True:
     print("\n--- ESCÁNER DE SEGURIDAD ACTIVO ---")
-    name = input("Nombre...").lower()
+    name = (
+        input("Nombre...").lower().strip()
+    )  # Convertir a minúsculas y eliminar espacios
 
     if name == "salir":
         print("Apagando el sistema...")
